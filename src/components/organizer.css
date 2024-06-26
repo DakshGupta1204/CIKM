@@ -1,0 +1,11 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.org-main{
+    margin: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.5rem;
+}

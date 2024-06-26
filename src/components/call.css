@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.call-main{
+    margin: 1rem;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 1.5rem;
+}
+.call-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
