@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.paper-container{
+    margin:1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.papers{
+    font-size: 1.5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.first a{
+    text-decoration: none;
+    color: blue;
+}
+.conti{
+    display: flex;
+}
