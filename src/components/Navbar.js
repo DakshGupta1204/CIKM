@@ -12,11 +12,11 @@ function Navbar() {
   return (
     <header>
         <nav className='navbar' ref={navRef}>
-            <Link to='/'>CIKM 2024</Link>
-            <Link to='/'>HOME</Link>
-            <Link to='/accepted'>ACCEPTED PAPERS</Link>
-            <Link to='/call'>CALL FOR PAPERS</Link>
-            <Link to='/organizers'>ORGANIZERS</Link>
+            <Link to='/' onClick={showNavbar}>CIKM 2024</Link>
+            <Link to='/' onClick={showNavbar}>HOME</Link>
+            <Link to='/accepted' onClick={showNavbar}>ACCEPTED PAPERS</Link>
+            <Link to='/call' onClick={showNavbar}>CALL FOR PAPERS</Link>
+            <Link to='/organizers' onClick={showNavbar}>ORGANIZERS</Link>
             <button className='nav-btn nav-close-btn' onClick={showNavbar}>
                 <FaTimes/>
             </button>
